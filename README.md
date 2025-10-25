@@ -1,34 +1,66 @@
-# Personal Portfolio Website — Web Dev I Lab 1
+Personal Portfolio Website — Web Dev I Lab 1 & 2 combined 
+📌 Project Description
+This is my Lab 2 assignment for Web Development I.
+It is a modern, fully-responsive one-page portfolio website built with semantic HTML5 and styled using an external CSS stylesheet.
+The page structure and features match the assignment requirements and now include:
 
-## 📌 Project Description
-This is my **Lab 1 assignment** for Web Development I.  
-It is a simple one-page portfolio website built with **semantic HTML**.  
-The page includes the following sections as per the lab document:
+Header & Navigation: Title and sticky navigation bar with internal links (About, Skills, Projects, Contact)
 
-- **Header & Navigation**: Name and internal links (About, Projects, Skills, Contact)
-- **Hero Section**: Welcome heading and introduction text
-- **About Me**: Short bio with a profile image
-- **My Projects**: List of 3–4 sample projects with short descriptions
-- **Technical Skills**: A table showing skills and levels
-- **Contact Me**: A form with Name, Email, and Message fields
+About Me: Short bio with a styled profile image
 
----
+My Skills: Table showing technical skills and current proficiency levels
 
-## 📂 Project Structure
+My Projects: 3–5 sample projects, each with a name and short description
+
+Contact Me: A styled form (with visible table layout) for Name, Email, and Message fields
+
+📂 Project Structure
+text
 portfolio-project/
 │── index.html
+│── style.css
 │── README.md
 └── images/
-└── profile.jpg
+    └── profile.jpg
+index.html → Main portfolio webpage (semantic HTML5)
 
-- `index.html` → main portfolio webpage  
-- `images/profile.jpg` → profile picture used in the About section  
+style.css → External stylesheet (responsive design & consistent theme)
 
----
+images/profile.jpg → Profile picture used in the About section
 
-## 🛠️ How to Run
-1. Download or clone this repository  
-   ```bash
-   git clone https://github.com/chiragchanchal/portfolio-project.git
-  Open the folder and double-click on index.html
+🎨 Features & Technologies
+Fully semantic HTML5 (<header>, <nav>, <main>, <section>, <table>, <footer>, etc.)
+
+Clean, modern layout and accessible color scheme
+
+Responsive design for both desktop and mobile
+
+Google Fonts for improved typography
+
+Styled navigation bar with hover effects
+
+Technical skills and contact form presented within tables
+
+“Back to Top” button for easy navigation
+
+🛠️ How to Run
+Download or clone this repository:
+
+bash
+git clone https://github.com/chiragchanchal/portfolio-project.git
+Open the folder and double-click on index.html
+
 The portfolio will open in your default web browser
+
+📑 Assignment Compliance
+Uses only external CSS (style.css)
+
+All sections are clearly separated, styled, and accessible
+
+Skills and contact form presented using table layout
+
+Color palette and fonts are consistent across all sections
+
+Passes browser tests on desktop and mobile as per lab requirements
+
+Feel free to update your name/profile image or add more project descriptions to further personalize this portfolio!
